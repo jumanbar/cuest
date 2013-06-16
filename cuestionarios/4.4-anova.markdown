@@ -1,0 +1,21 @@
+# ANOVA
+
+Cual de los siguientes modelos estadísticos **no corresponden** a un Análisis de Varianza "clásico".
+
+Nota: serán utilizadas distintas bases de datos que vienen por defecto en el R (deberá usar R para responder).
+
+    [ ] lm(decrease ~ treatment - 1, data = OrchardSprays)
+    Esto si es un ANOVA porque la variable explicativa es del tipo factorial. Puedes comprobarlo investigando la estructura del data.frame.
+    
+    [ ] aov(len ~ supp, data = ToothGrowth)
+    Esto sí es un ANOVA porque la variable explicativa es del tipo factorial. Puedes comprobarlo investigando la estructura del data.frame.
+    
+    [*] aov(Wind ~ Month, data=airquality)
+    En este caso la variable 'Month' no es un factor sino una variable numérica, por ese motivo los coeficientes son solo el intercepto y la pendiente. Para que nos dé los promedios de cada mes, es necesario previamente coarcionar dicha variable a factor. ¡Intentalo!
+
+    [ ] lm(Petal.Length ~ Species, data=iris)
+    Esto sí es un ANOVA porque la variable explicativa es del tipo factorial. Puedes comprobarlo pidiendo la investigando la estructura del data.frame.
+    
+
+
+

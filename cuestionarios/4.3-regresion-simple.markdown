@@ -8,13 +8,13 @@ Determine a que valor corresponde cada uno
 (hay opciones sin correspondencia):
 
 
-    0.106770        --  tasa de cambio
-    35              --  valores observados en total
-    1.931e-14       --  p-valor del modelo
-    17.399650       --  intecepto
-    0.8345          --  R2               
-    33              --  grados de libertad
-    166.4           --  estadístico F
-                    --  errores residuales
-                    --  R2 ajustado
+     0.106770        --  tasa de cambio de circum. por unidad de age (pendiente)
+     35              --  valores observados en total
+     1.931e-14       --  p-valor del modelo
+     17.399650       --  intecepto
+     0.8345          --  R2 (R al cuadrado o coeficiente de determinación)               
+     33              --  grados de libertad
+     166.4           --  estadístico F
+                     --  errores residuales
+                     --  R2 ajustado (R al cuadrado o coeficiente de determinación ajustado)
 
